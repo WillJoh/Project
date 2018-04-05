@@ -37,7 +37,7 @@ public class Command {
             body = command;
         } else if (command.equalsIgnoreCase("rock") || 
                 command.equalsIgnoreCase("paper") || 
-                command.equalsIgnoreCase("sciccors")) {
+                command.equalsIgnoreCase("scissors")) {
             header = MsgHeaders.PLAY;
             body = command.toLowerCase();
         }

@@ -10,7 +10,7 @@ package dataStructures;
  * @author William Joahnsson
  */
 public enum PlayerAction {
-    NOTHING("Nothing"), ROCK("rock"), PAPER("paper"), SCICCORS("paper");
+    NOTHING("Nothing"), ROCK("rock"), PAPER("paper"), SCISSORS("paper");
     
     public final String id;
     PlayerAction(String id) {

@@ -56,8 +56,8 @@ public class Interpreter implements Runnable{
                             controller.play(PlayerAction.PAPER);    
                             break;
                             
-                            case "sciccors" :
-                            controller.play(PlayerAction.SCICCORS);    
+                            case "scissors" :
+                            controller.play(PlayerAction.SCISSORS);    
                             break;
                         }                        
                         break;

@@ -89,7 +89,7 @@ public class Game {
                 case ROCK :
                     rock = true;
                     break;
-                case SCICCORS : 
+                case SCISSORS : 
                     sciccors = true;
                     break;
             }
@@ -107,7 +107,7 @@ public class Game {
                     case ROCK :
                         rock = true;
                         break;
-                    case SCICCORS : 
+                    case SCISSORS : 
                         sciccors = true;
                         break;
                 }
@@ -128,7 +128,7 @@ public class Game {
             }
         }
         else if(paper == true && sciccors == true) {
-            if (currPlayer.action == PlayerAction.SCICCORS) {
+            if (currPlayer.action == PlayerAction.SCISSORS) {
                 currPlayer.score++;
                 controller.updateScore(currPlayer.score, true);
             }

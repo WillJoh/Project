@@ -55,7 +55,7 @@ public class Msg {
                 player.action = PlayerAction.ROCK;
                 break;
             case "SCICCORS":
-                player.action = PlayerAction.SCICCORS;
+                player.action = PlayerAction.SCISSORS;
                 break;
             case "NOTHING":
                 player.action = PlayerAction.NOTHING;
